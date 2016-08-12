@@ -166,7 +166,7 @@
 
 	// From MediaWikiTitleCodec.php#L225 @26fcab1f18c568a41
 	// "Clean up whitespace" in function MediaWikiTitleCodec::splitTitleString()
-	rWhitespace = /[ _\u0009\u00A0\u1680\u180E\u2000-\u200A\u2028\u2029\u202F\u205F\u3000\s]+/g,
+	rWhitespace = /[ _\u0009\u00A0\u1680\u2000-\u200A\u2028\u2029\u202F\u205F\u3000\s]+/g,
 
 	/**
 	 * Slightly modified from Flinfo. Credit goes to Lupo and Flominator.
